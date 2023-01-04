@@ -1,8 +1,7 @@
+import Navbar from "./Navbar/Navbar";
+
 export default function Main() {
-
     return (
-
-        <div><h1>MAIN</h1></div>
-
+        <Navbar />
     );
-}
+};

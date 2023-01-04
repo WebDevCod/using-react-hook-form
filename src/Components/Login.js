@@ -31,7 +31,7 @@ export default function Login() {
                     alert(data.title);
                 } else {
                     alert(data.token);
-                    window.location.href = "/main";                    
+                    window.location.href = "/main";
                 }
             });
     };
@@ -78,5 +78,5 @@ export default function Login() {
                 </div>
             </form>
         </div>
-    )
-}
+    );
+};
