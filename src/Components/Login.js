@@ -1,6 +1,5 @@
 import "../css/styles.css";
 import { useForm } from "react-hook-form";
-import React from "react";
 
 export default function Login() {
     const {
@@ -30,7 +29,6 @@ export default function Login() {
                 if (data.status === 401) {
                     alert(data.title);
                 } else {
-                    alert(data.token);
                     window.location.href = "/main";
                 }
             });

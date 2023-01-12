@@ -1,7 +1,10 @@
-import Navbar from "./Navbar/Navbar";
+import Layout from "./Layout";
 
 export default function Contact() {
+
     return (
-        <Navbar />
+        <Layout>
+            <h1>Contact</h1>
+        </Layout>
     );
 };
